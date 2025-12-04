@@ -2,6 +2,7 @@ from typing import List
 from pydantic import BaseModel
 
 
+# Task-related models
 class TaskCreate(BaseModel):
     title: str
     status: str = "open"
